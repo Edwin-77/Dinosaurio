@@ -50,8 +50,8 @@ center {
   animation: block 3s infinite linear;
 }
 @keyframes block {
-  0%{left: 900px;}
-  100%{left: -10px;}
+  0%{left: 100%;}
+  100%{left: 1%;}
 }
 button {
   border-radius:5px;
