@@ -1,5 +1,9 @@
-# Dino jungla
-##Dinosaurio
-le puse asi porque planeo realizar actualizaciones
-Para hacer mis prácticas este juego es copiado del
-Navegador no hay internet
+# 🤓Dinosaurio🤓
+
+## Dinosaurio🦖
+
+Un juego basado en el navegador de chorme
+sin conexión a internet.
+
+Puedes ver como funciona el juego desde aquí 👇
+<a heref="https://edwin-77.github.io/DinoJungla/">https://github.com/Edwin-77/DinoJungla/edit/main/README.md</a>
