@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <title>Dinosaurio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body bgcolor="#000011">
-  <center>
-  <b>Dino Hecho Por Edwin😎</b></center>
-  <div id="game">
-    <div id="character"></div>
-    <div id="block"></div>
+<body>
+  <h1>Dino Hecho Por Edwin😎</h1>
+
+  <div id="juego">
+    <canvas id="lienzo"></canvas>
   </div>
-  <button onclick="jump()"></button>   
+
+  <p id="ayuda">
+    <span class="pc">Espacio / ↑ para saltar · ↓ para agacharte · P para pausar</span>
+    <span class="movil">Toca la pantalla para saltar · mantén ⬇ para agacharte</span>
+  </p>
+
+  <div id="controles">
+    <button id="btnAgachar" aria-label="Agacharse">⬇</button>
+    <button id="btnSaltar" aria-label="Saltar"></button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
+
 </html>
